@@ -108,6 +108,6 @@ const seperator = (list) => {
 }
 
 let prices = seperator(pricelist)
-console.log(prices)
+// console.log(prices)
 
 module.exports = prices

@@ -6,6 +6,6 @@ const seperator = (string) => {
 
 let descriptions = seperator(descriptionStr)
 
-console.log(descriptions)
+// console.log(descriptions)
 
 module.exports = descriptions
