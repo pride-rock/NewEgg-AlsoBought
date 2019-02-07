@@ -1,8 +1,13 @@
-const sqlite = require('sqlite')
+const sqlite = require('sqlite3').verbose()
+let db = new sqlite.Database('../db/items.db')
 
 module.exports = {
-    itemsData : (data, callback) =>{
-        //write function that gets all data from db
-    },
-    
+  populate : (callback) => { 
+      db.all('SELECT * from items', (err, data) =>{
+        if(err) {callback(err)}
+        else {callback(null, data)}
+      })
+     
+    }
+
 }
