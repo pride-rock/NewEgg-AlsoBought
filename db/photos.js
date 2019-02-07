@@ -99,7 +99,7 @@ const photos = ["https://drive.google.com/uc?id=18e-oqudcaLbZvqVZPlZrw_NwI03PMwe
 "https://drive.google.com/uc?id=1kZNCb_yU1rLE9KL_2-r87ZHt9zlJAYfa&export=download", 
 "https://drive.google.com/uc?id=1K-a75tc1oL0eTKn9PObFVxmBX_0_CQWh&export=download"]
 
-
+// console.log(photos)
 module.exports = photos
   
   
